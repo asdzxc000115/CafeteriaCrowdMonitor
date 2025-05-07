@@ -11,7 +11,7 @@ import numpy as np
 YOLO_PATH = Path(os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'yolov7'))
 sys.path.append(str(YOLO_PATH))
 
-# YOLOv7 모듈 임포트 
+# YOLOv7 모듈 임포트
 from models.experimental import attempt_load
 from utils.general import check_img_size, non_max_suppression, scale_coords
 from utils.datasets import letterbox
